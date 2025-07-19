@@ -1,105 +1,145 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #b6d1d6;
     margin: 0;
     padding: 20px;
-  }
+}
 
-  .container {
-    max-width: 900px;
+.container {
+    max-width: 800px;
     margin: auto;
     background-color: #fff;
     padding: 50px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
+}
 
-  h1 {
+h1 {
     text-align: left;
     color: #2c3e50;
     margin-bottom: 0px;
-  }
-  h3 {
+}
+h3 {
     text-align: left;
     color: #2c3e50;
     margin-top: 0px;
-  }
-  h2 {
+}
+h2 {
     text-align:center;
     color: #2c3e50;
-  }
+}
 
-  .section {
+.section {
     margin-top: 30px;
-  }
+}
 
-  .section h3 {
+.section h3 {
     border-bottom: 2px solid #2c3e50;
     padding-bottom: 8px;
     text-align: left;
-  }
+}
 
-  label {
+label {
     display: block;
     margin-top: 15px;
     font-weight: bold;
-  }
+}
 
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  textarea,
-  select {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
     box-sizing: border-box;
     border-radius: 4px;
     border: 1px solid #ccc;
-  }
+}
 
-  .options {
+.options {
     margin-top: 10px;
-  }
+}
 
-  .options label {
+.options label {
     display: inline-block;
     margin-right: 20px;
     font-weight: normal;
-  }
+}
 
-  textarea {
+textarea {
     resize: vertical;
     min-height: 80px;
-  }
+}
 
-  .signature {
+.signature {
     margin-top: 30px;
-  }
+}
 
-  .signature input {
-    width: 50%;
+.signature input {
+    width: 50%; 
     margin-top: 5px;
-  }
+    margin-bottom: 5px;
+}
 
-  button {
-    display: block;
-    margin: 30px auto;
-    padding: 12px 30px;
-    background-color: #2c3e50;
-    color: #fff;
+button {
+    padding: 10px 20px;
+    margin-top: 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-  }
+}
 
-  button:hover {
+.submit-btn {
+    background-color: #4d749b;
+    color: #fff;
+}
+
+.clear-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    margin-left: 10px;
+}
+
+#confirmCheckbox {
+    display: none;
+}
+
+#confirmationMessage {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #3c763d;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#confirmCheckbox:checked + #confirmationMessage {
+    display: block;
+}
+
+button:hover {
     background-color: #34495e;
-  }
- .container img {
+}
+.container img {
     width: 100px;
     height: 100px;
     float: left;
     margin-right: 10px;
-  }
+}
+
+.required {
+    color: red;
+    font-weight: normal;
+}
+
+.hint {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
