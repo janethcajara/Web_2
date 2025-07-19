@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    text-align: left;
+    color: #2c3e50;
+    margin-bottom: 0px;
+  }
+  h3 {
+    text-align: left;
+    color: #2c3e50;
+    margin-top: 0px;
+  }
+  h2 {
+    text-align:center;
+    color: #2c3e50;
+  }
+
+  .section {
+    margin-top: 30px;
+  }
+
+  .section h3 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 8px;
+    text-align: left;
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .options {
+    margin-top: 10px;
+  }
+
+  .options label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+
+  .signature {
+    margin-top: 30px;
+  }
+
+  .signature input {
+    width: 50%;
+    margin-top: 5px;
+  }
+
+  button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 30px;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #34495e;
+  }
+ .container img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+  }

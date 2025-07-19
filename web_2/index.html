@@ -1,23 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fill up Form</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BANYAN WER DELION - Client Information Form</title>
+<link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <h2>Contact Us</h2>
-    <form action="#" method="post">
-        <label for="name">Name:</label><br />
-        <input type="text" id="name" name="name" required /><br /><br />
 
-        <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required /><br /><br />
+<div class="container">
+  <img src="https://i.fbcd.co/products/resized/resized-750-500/1143-banyan-tree-gold-golden-logo-2f7c0089b91876e91cf1eb573ff0e7cf3b9a8855030808a7dcdf43a27c143640.jpg" alt="Icon" />
+  <h1>BANYAN</h1>
+  <h3>WEB DESIGN</h3>
+  <h2>CLIENT INFORMATION FORM</h2>
 
-        <label for="message">Message:</label><br />
-        <textarea id="message" name="message" rows="4" cols="30" required></textarea><br /><br />
+  <div class="section">
+    <h3>Personal Information</h3>
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" />
 
-        <button type="submit">Submit</button>
-    </form>
+    <label for="company">Company/Organization (if any):</label>
+    <input type="text" id="company" name="company" />
+
+    <label for="position">Position/Role:</label>
+    <input type="text" id="position" name="position" />
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" />
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" />
+
+    <label>Preferred Method of Contact:</label>
+    <div class="options">
+      <label><input type="radio" name="contact_method" value="Email" /> Email</label>
+      <label><input type="radio" name="contact_method" value="Phone" /> Phone</label>
+      <label><input type="radio" name="contact_method" value="Messaging App" /> Messaging App</label>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Project Details</h3>
+    <label for="project_name">Project Name/Title:</label>
+    <input type="text" id="project_name" name="project_name" />
+
+    <label for="service_type">Type of Service Required:</label>
+    <div class="options">
+      <label><input type="checkbox" name="service_type" value="Web Development" /> Web Development</label>
+      <label><input type="checkbox" name="service_type" value="Graphic Design" /> Graphic Design</label>
+      <label><input type="checkbox" name="service_type" value="Branding" /> Branding</label>
+      <label><input type="checkbox" name="service_type" value="Marketing" /> Marketing</label>
+    </div>
+
+    <label for="description">Brief Description of the Project:</label>
+    <textarea id="description" name="description"></textarea>
+
+    <label for="target_audience">Target Audience:</label>
+    <input type="text" id="target_audience" name="target_audience" />
+
+    <label for="deadline">Deadline or Timeline:</label>
+    <input type="text" id="deadline" name="deadline" />
+
+    <label for="budget">Budget Range:</label>
+    <div class="options">
+      <label><input type="radio" name="budget" value="Below P10,000" /> Below P10,000</label>
+      <label><input type="radio" name="budget" value="P10,000 - P30,000" /> P10,000 - P30,000</label>
+      <label><input type="radio" name="budget" value="P50,000+" /> P50,000+</label>
+    </div>
+
+    <label for="file_content">File & Content Provision</label>
+    <div class="options">
+      <label><input type="radio" name="content_provision" value="Yes" /> Yes</label>
+      <label><input type="radio" name="content_provision" value="No" /> No</label>
+      <label><input type="radio" name="content_provision" value="Partially" /> Partially</label>
+    </div>
+
+    <label for="brand_assets">Do you have brand assets (logo, colors, fonts)?</label>
+    <div class="options">
+      <label><input type="radio" name="brand_assets" value="Yes" /> Yes</label>
+      <label><input type="radio" name="brand_assets" value="No" /> No</label>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Approvals & Follow-ups</h3>
+    <label for="approver">Who will approve designs or decisions on your side?</label>
+    <input type="text" id="approver" name="approver" />
+
+    <label for="updates_frequency">How often do you prefer updates?</label>
+    <div class="options">
+      <label><input type="radio" name="updates" value="Daily" /> Daily</label>
+      <label><input type="radio" name="updates" value="Weekly" /> Weekly</label>
+      <label><input type="radio" name="updates" value="At key milestones" /> At key milestones</label>
+    </div>
+  </div>
+
+  <div class="signature">
+    <h3>Signature (if printed)</h3>
+    <label for="client_signature">Client Signature:</label>
+    <input type="text" id="client_signature" name="client_signature" />
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" />
+  </div>
+
+  <button type="submit">Submit</button>
+</div>
+
 </body>
 </html>
