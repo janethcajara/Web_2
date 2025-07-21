@@ -34,7 +34,6 @@ h2 {
 }
 
 .section h3 {
-    border-bottom: 2px solid #2c3e50;
     padding-bottom: 8px;
     text-align: left;
 }
@@ -71,9 +70,6 @@ textarea {
 textarea {
     resize: vertical;
     min-height: 80px;
-}
-.signature h3 {
-border-bottom: 2px solid #2c3e50;
 }
 .signature {
     margin-top: 30px;
